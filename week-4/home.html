@@ -1,24 +1,55 @@
-<html> 
-<body bgcolor="lightblue"> 
-<table border="3" height="175" width="1275"  
-cellspacing="4"> 
-<tr> 
-<th colspan="5" height="100"> 
-<img src="kluh.png" height="100"  
-width="100" align="left" align="middle" > 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-<h1>Welcome to online product store</h1>  
-</th> 
-</tr> 
-<tr> 
-<th><a href="home.html" target="empty">Home</a> 
-</th> 
-<th><a href="registration.html" target="empty">Registration </a> 
-</th> 
-<th><a href="loginpage.html" target="empty"> 
-                         Login</a></th> 
-<th><a href="contact.html" target="empty">contact</a></th> 
-</tr> 
-</table> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Player Page</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    header, nav, section, footer {
+      padding: 20px;
+      margin: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: darkblue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to FEDF Multimedia Page</h1>
+  </header>
+
+  <nav>
+    <a href="home.html">back to homepage</a>
+      </nav>
+
+  <section>
+    <h2>Watch Our FEDF Video</h2>
+    <p>Click the play button to play the video:</p>
+    <video width="300" height="200" controls autoplay>
+      <source src="fedf.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <h2>Listen to Our Audio</h2>
+    <p>Click the play button to play the audio:</p>
+    <audio controls>
+      <source src="song.ogg" type="audio/ogg">
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 FEDF Multimedia | All rights reserved.</p>
+  </footer>
+
+</body>
 </html>
